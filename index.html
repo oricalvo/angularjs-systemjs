@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <app-root></app-root>
+
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script src="systemjs.config.js"></script>
+    <script src="bundle.js"></script>
+    <link rel="stylesheet" href="bundle.css">
+
+    <script>
+        SystemJS.import("app/main.js");
+    </script>
+</body>
+</html>
